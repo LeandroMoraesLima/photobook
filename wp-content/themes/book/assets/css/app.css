@@ -1,0 +1,102 @@
+/* line 1, ../sass/app.scss */
+.row {
+  width: 100%;
+}
+/* line 4, ../sass/app.scss */
+.row .navbar {
+  background-color: #ffffff !important;
+  width: 90%;
+}
+/* line 19, ../sass/app.scss */
+.row .navbar .collapse1 .collapse2 .tel {
+  text-align: center;
+  width: 190px;
+  background-color: #ffd200;
+  display: inline-block;
+  color: #212121;
+  border-radius: 7px;
+}
+/* line 28, ../sass/app.scss */
+.row .navbar .collapse1 .collapse2 .fa {
+  color: #757273;
+  padding-left: 50px;
+}
+
+/* line 37, ../sass/app.scss */
+section.logo {
+  width: 100%;
+  height: 540px;
+  background-repeat: no-repeat;
+}
+/* line 42, ../sass/app.scss */
+section.logo .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* line 49, ../sass/app.scss */
+section.logo .text h1 {
+  font-family: PFAgoraSansPro;
+  font-size: 45px;
+  padding-top: 50px;
+}
+/* line 55, ../sass/app.scss */
+section.logo .text h4 {
+  font-family: PFAgoraSansPro;
+  font-size: 24px;
+  margin-top: 10px;
+}
+/* line 63, ../sass/app.scss */
+section.logo .text a li {
+  font-family: PFAgoraSansPro;
+  font-size: 26px;
+  color: #212121;
+  width: 385px;
+  height: 55px;
+  border-radius: 7px;
+  border: 1px solid #070606;
+  padding: 8px;
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+/* line 82, ../sass/app.scss */
+section.cardmain .row hr {
+  position: absolute;
+  margin-top: 73px;
+  width: 55%;
+  border: 2px dashed #fcd40a;
+}
+/* line 90, ../sass/app.scss */
+section.cardmain .row .card {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid #fcd40a;
+}
+/* line 97, ../sass/app.scss */
+section.cardmain .row .card .img {
+  position: absolute;
+  bottom: 32px;
+  width: 70%;
+  height: 65px;
+}
+/* line 104, ../sass/app.scss */
+section.cardmain .row .text {
+  font-sazi: 50px;
+}
+
+/* line 121, ../sass/app.scss */
+section.advantage .advan h1 {
+  text-align: center;
+}
+/* line 124, ../sass/app.scss */
+section.advantage .advan h1 .figure {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid #fcd40a;
+}
