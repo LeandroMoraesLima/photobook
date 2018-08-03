@@ -38,6 +38,9 @@ section.logo{
 	width: 100%;
     height: 540px;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     
     .text{
     	display: flex;
@@ -46,7 +49,7 @@ section.logo{
     	flex-direction: column;
     
 
-		h1{
+		h2{
 			font-family: PFAgoraSansPro;
 			font-size: 45px;
 			padding-top: 50px;
@@ -78,27 +81,40 @@ section.logo{
 section.cardmain{
 
 	.row{
+		padding: 50px 0;
+		text-align:  center;
 		
 		hr{
 			position: absolute;
     		margin-top: 73px;
-    		width: 55%;
+    		width: 80%;
 			border: 2px dashed #fcd40a;
+			margin: 0 auto;
+   			
 			
-    	}		
+    	}	
+    	.card{	
+    		border: none;
+    		background-color: transparent;
 
-		.card{
-			border-radius: 50%;
-			width: 150px;
-			height: 150px;
-			overflow: hidden;
-			border: 5px solid #fcd40a;
-									
-			.img{
-				position: absolute;
-				bottom: 32px;
-				width: 70%;
-				height: 65px;
+    		a{
+    			text-align: center;
+
+				.card1{
+					border-radius: 50%;
+					width: 150px;
+					height: 150px;					
+					border: 5px solid #fcd40a;
+				}
+											
+				h4{
+					
+					font-family: PFAgoraSansPro;
+					font-size: 24px;
+				    color: #1f1f1f;
+				    margin-top: 30px;
+				}
+				
 			}
 		}
 		.text{
@@ -115,23 +131,71 @@ section.cardmain{
 }
 section.advantage{
 
-	.advan{
+	.row{ 
 
-
-		h1{
+		.advan{
 			text-align: center;
+			background-color: #f3f0e7;
 
-			.figure{
+
+
+			h2{
+				font-family: PFAgoraSansPro;
+				font-size: 45px;
+			    color: #000000;
+			    margin: 50px;
+
+			}				
+			.img1{
 				border-radius: 50%;
-				width: 150px;
-				height: 150px;
-				overflow: hidden;
-				border: 5px solid #fcd40a; 
+				width: 70%;
+				height: 220px;
+			}
+			h4{
+				font-family: PFAgoraSansPro;
+				font-size: 24px;
+			    color: #000000;
+			    padding: 15px;
+			}
+			p{
+				font-family: PFAgoraSansPro;
+				font-size: 16px;
+			    color: #000000;
 
 			}
-		}				
+			li{
+				font-family: PFAgoraSansPro;
+				font-size: 26px;
+			    color: #ffffff;
+			    width: 385px;
+			    border-radius: 7px;
+			    background-color: #e11a27;
+			    padding: 8px;
+			    list-style-type: none;
+			    margin-top: 50px;
+			    margin-left: 365px;
+			    margin-bottom: 50px;
+			    
+    		}
+		}
 	}
 }
+section.ready{
 
+	h2{
+		font-family: PFAgoraSansPro;
+		font-size: 45px;
+		padding-top: 50px;
+		text-align: center;
+	}
+	.row{
+		text-align: center;
+
+
+		h5{
+
+		}
+	}
+}
 		
 		

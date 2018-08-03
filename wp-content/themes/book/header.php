@@ -55,7 +55,7 @@
 			<div class="titulo">
 				<div class="row">
 					<div class="text col-md-12 text-center">
-						<h1>CREATE YOUR OWN PHOTOSTORY</h1>
+						<h2>CREATE YOUR OWN PHOTOSTORY</h2>
 						<h4>Make your photobook oline</h4>
 						<a href="header.php">
 							<li>MAKE YOUR PHOTOBOOK</li>
@@ -69,100 +69,98 @@
   	<section class="cardmain">
   		<div class="container">
   			<div class="row">
-				<hr>  				
-				<div class="card-deck">
-					<div class="card">
-						<img class="img" src="<?php echo IMG; ?>/Photobook3.jpg">
-					</div>
-					<div class="text">
-						<h5>Download photos</h5>							
-					</div>
-					<div class="card">
-						<img class="img" src="<?php echo IMG; ?>/Photobook4.jpg">
-					</div>
-					<div class="text">
-						<h5>Download photos</h5>							
-					</div>
-					<div class="card">
-						<img class="img" src="<?php echo IMG; ?>/Photobook5.jpg">
-					</div>
-					<div class="text">
-						<h5>Download photos</h5>							
-					</div>
-					<div class="card">
-						<img class="img" src="<?php echo IMG; ?>/Photobook6.jpg">
-					</div>
-					<div class="text">
-						<h5>Download photos</h5>							
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+  				<div class="col-md-12">	
+	  				<div class="row">	  					  	
+  						<hr>
+	  					<div class="card col-md-3">	
+	  						<a href="#">
+		  						<img class="card1" src="<?php echo IMG; ?>/Photobook3.jpg">
+		  						<h4>Download<br>photos</h4>	
+	  						</a>     			
+	  					</div>
+	  					<div class="card col-md-3">
+	  						<a href="#">	
+		  						<img class="card1" src="<?php echo IMG; ?>/Photobook4.jpg">
+		  						<h4>Desing your<br>photobook</h4>	
+	  						</a>     			
+	  					</div>
+	  					<div class="card col-md-3">	
+	  						<a href="#">
+		  						<img class="card1" src="<?php echo IMG; ?>/Photobook5.jpg">
+		  						<h4>Pay<br>for service</h4>	  
+	  						</a>   			
+	  					</div>
+	  					<div class="card col-md-3">	
+	  						<a href="#">
+		  						<img class="card1" src="<?php echo IMG; ?>/Photobook6.jpg">
+		  						<h4>Get your<br>photobook</h4>	
+	  						</a>
+	  					</div>
+	  				</div>
+  				</div>
+     		</div>
+     	</div>
+     </section>
 
 	<section class="advantage">
 		<div class="container-fluid">
-			<div class="advan">								
-				<h1>ADVANTAGE</h1>
-			</div>
 			<div class="row">
-				<div class="text col-md-4">
-					<figure class="figure">
-						<img src="<?php echo IMG; ?>/Photobook7.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-						<figcaption class="figure-caption">A caption for the above image.</figcaption>
-					</figure>								
-				</div>  
-				<div class="text col-md-4">
-					<figure class="figure">
-						<img src="<?php echo IMG; ?>/Photobook8.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-						<figcaption class="figure-caption">A caption for the above image.</figcaption>
-					</figure>								
-				</div>
-				<div class="text col-md-4">
-					<figure class="figure">
-						<img src="<?php echo IMG; ?>/Photobook9.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-						<figcaption class="figure-caption">A caption for the above image.</figcaption>
-					</figure>								
-				</div>				
+				<div class="advan col-md-12">	
+					<h2>ADVANTAGE</h2>
+					<div class="container">
+						<div class="row">
+							<div class="img col-md-4">	
+				       		    <img class="img1" src="<?php echo IMG; ?>/Photobook7.jpg" >
+				       		    <h4>Import photos<br>fron your social networks</h4>
+				     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus voluptates est fugiat quo eveniet.</p>
+			     			</div>
+			     			<div class="img col-md-4">	
+				       		    <img class="img1" src="<?php echo IMG; ?>/2bcc0e11960ebe99ec2c4d402328a970.gif" >
+				       		    <h4>Photo editing</h4>
+				     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse, repellat dolorem iure eum. Dolore possimus iste, quisquam quaerat ut, assumenda consequuntur molestiae.</p>
+			     			</div>
+			     			<div class="img col-md-4">	
+				       		    <img class="img1" src="<?php echo IMG; ?>/Photobook9.jpg" >
+				       		    <h4>Templates</h4>
+				     			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad esse, repellat dolorem iure eum. Dolore possimus iste, quisquam quaerat ut, assumenda consequuntur molestiae.</p>
+			     			</div>	
+			     		</div>
+		     			<div class="button text-center">
+		     				<a href="header.php">
+								<li>MAKE YOUR PHOTOBOOK</li>
+							</a>
+		     			</div>
+			     	</div>
+     			</div>
 			</div>
 		</div>
 	</section>
 
+	<section class="ready">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Ready solutions</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<h5>LightBook</h5>
+							<p>Make your LightBook</p>							
+						</div>
+						<div class="col-md-4">
+							<h6>BESTSELLER</h6>
+							<h5>ClassicBook</h5>
+							<p>Make your ClassicBook</p>
+						</div>
+						<div class="col-md-4">
+							<h5>PremiumBook</h5>
+							<p>Make your PremiumBook</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-
-						<!-- <div class="card-body">
-							<h5 class="card-title">Download photos</h5>							
-						</div>
-					</div>
-				</div>
-				<div class="card-deck">
-					<div class="card">
-						<img class="img card-img-top" src="<?php echo IMG; ?>/Photobook4.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h5 class="card-title">Desing your photobook</h5>							
-						</div>
-					</div>
-				</div>
-				<div class="card-deck">
-					<div class="card">
-						<img class="img card-img-top" src="<?php echo IMG; ?>/Photobook5.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h5 class="card-title">Pay for service</h5>							
-						</div>
-					</div>
-				</div>
-				<div class="card-deck">
-					<div class="card">
-						<img class="img card-img-top" src="<?php echo IMG; ?>/Photobook6.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h5 class="card-title">Get your photobook</h5>							
-						</div>
-					</div>
-				</div>
-  			</div>
-  		</div>
-  	</section>
- -->
+	</section>
 
   </body>
 	
