@@ -1,13 +1,14 @@
-/* line 1, ../sass/app.scss */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+/* line 2, ../sass/app.scss */
 .row {
   width: 100%;
 }
-/* line 4, ../sass/app.scss */
+/* line 5, ../sass/app.scss */
 .row .navbar {
   background-color: #ffffff !important;
   width: 90%;
 }
-/* line 19, ../sass/app.scss */
+/* line 20, ../sass/app.scss */
 .row .navbar .collapse1 .collapse2 .tel {
   text-align: center;
   width: 190px;
@@ -16,13 +17,13 @@
   color: #212121;
   border-radius: 7px;
 }
-/* line 28, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
 .row .navbar .collapse1 .collapse2 .fa {
   color: #757273;
   padding-left: 50px;
 }
 
-/* line 37, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 section.logo {
   width: 100%;
   height: 540px;
@@ -30,26 +31,26 @@ section.logo {
   background-size: cover;
   background-position: center;
 }
-/* line 45, ../sass/app.scss */
+/* line 46, ../sass/app.scss */
 section.logo .text {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-/* line 52, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 section.logo .text h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
   padding-top: 50px;
 }
-/* line 58, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 section.logo .text h4 {
   font-family: PFAgoraSansPro;
   font-size: 24px;
   margin-top: 10px;
 }
-/* line 66, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 section.logo .text a li {
   font-family: PFAgoraSansPro;
   font-size: 26px;
@@ -63,12 +64,12 @@ section.logo .text a li {
   margin-top: 60px;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 section.cardmain .row {
   padding: 50px 0;
   text-align: center;
 }
-/* line 87, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 section.cardmain .row hr {
   position: absolute;
   margin-top: 73px;
@@ -76,66 +77,66 @@ section.cardmain .row hr {
   border: 2px dashed #fcd40a;
   margin: 0 auto;
 }
-/* line 96, ../sass/app.scss */
+/* line 97, ../sass/app.scss */
 section.cardmain .row .card {
   border: none;
   background-color: transparent;
 }
-/* line 100, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 section.cardmain .row .card a {
   text-align: center;
 }
-/* line 103, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 section.cardmain .row .card a .card1 {
   border-radius: 50%;
   width: 150px;
   height: 150px;
   border: 5px solid #fcd40a;
 }
-/* line 110, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 section.cardmain .row .card a h4 {
   font-family: PFAgoraSansPro;
   font-size: 24px;
   color: #1f1f1f;
   margin-top: 30px;
 }
-/* line 120, ../sass/app.scss */
+/* line 121, ../sass/app.scss */
 section.cardmain .row .text {
   font-sazi: 50px;
 }
 
-/* line 136, ../sass/app.scss */
+/* line 137, ../sass/app.scss */
 section.advantage .row .advan {
   text-align: center;
   background-color: #f3f0e7;
 }
-/* line 142, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 section.advantage .row .advan h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
   color: #000000;
   margin: 50px;
 }
-/* line 149, ../sass/app.scss */
+/* line 150, ../sass/app.scss */
 section.advantage .row .advan .img1 {
   border-radius: 50%;
   width: 70%;
   height: 220px;
 }
-/* line 154, ../sass/app.scss */
+/* line 155, ../sass/app.scss */
 section.advantage .row .advan h4 {
   font-family: PFAgoraSansPro;
   font-size: 24px;
   color: #000000;
   padding: 15px;
 }
-/* line 160, ../sass/app.scss */
+/* line 161, ../sass/app.scss */
 section.advantage .row .advan p {
   font-family: PFAgoraSansPro;
   font-size: 16px;
   color: #000000;
 }
-/* line 166, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 section.advantage .row .advan li {
   font-family: PFAgoraSansPro;
   font-size: 26px;
@@ -150,14 +151,27 @@ section.advantage .row .advan li {
   margin-bottom: 50px;
 }
 
-/* line 185, ../sass/app.scss */
+/* line 186, ../sass/app.scss */
 section.ready h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
   padding-top: 50px;
   text-align: center;
 }
-/* line 191, ../sass/app.scss */
+/* line 192, ../sass/app.scss */
 section.ready .row {
   text-align: center;
+}
+/* line 200, ../sass/app.scss */
+section.ready .row h5 {
+  font-family: Myriad Pro;
+  font-size: 36px;
+  color: #000000;
+  width: 385px;
+  border-radius: 7px;
+  background-color: #ffd200;
+  padding: 8px;
+  list-style-type: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

@@ -1,4 +1,5 @@
-.row{
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+.row{ 
 	width: 100%;
 
 	.navbar{
@@ -192,7 +193,26 @@ section.ready{
 		text-align: center;
 
 
+		h6{
+
+
+		}
 		h5{
+			font-family: Myriad Pro;
+			font-size: 36px;
+		    color: #000000;
+		    width: 385px;
+		    border-radius: 7px;
+		    background-color: #ffd200;
+		    padding: 8px;
+		    list-style-type: none;
+		    margin-top: 50px;
+		    margin-bottom: 50px;
+
+
+		}
+		p{
+
 
 		}
 	}
