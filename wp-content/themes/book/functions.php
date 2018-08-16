@@ -8,7 +8,7 @@
 	{
 
 		/* Registering style */
-		wp_register_style('bootstrapcss', CSS . '/bootstrap.min.css', array(), '0.0.1', false );
+		wp_register_style('bootstrapcss', CSS . '/bootstrap.min.css', array(), '0.0.3', false );
 		//wp_register_style('swipercss', CSS . '/swiper.css', array(), '0.0.1', false );
 		//wp_register_style('style_css', CSS . '/app.css', array(), '0.0.4', false );
 
