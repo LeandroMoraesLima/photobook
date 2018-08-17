@@ -441,18 +441,19 @@ section.footer .rodape .logo .logos {
 /* line 475, ../sass/app.scss */
 section.footer .rodape .logo .logos .fa {
   margin-left: 10px;
+  color: #000;
 }
-/* line 482, ../sass/app.scss */
+/* line 483, ../sass/app.scss */
 section.footer .rodape .logoimg {
   height: 96px;
   border-radius: 8px;
   text-align: center;
 }
-/* line 487, ../sass/app.scss */
+/* line 488, ../sass/app.scss */
 section.footer .rodape .logoimg .rodapeimg {
   margin: 0 auto;
 }
-/* line 493, ../sass/app.scss */
+/* line 494, ../sass/app.scss */
 section.footer .rights {
   text-align: center;
   padding-bottom: 55px;
