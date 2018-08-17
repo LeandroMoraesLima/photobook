@@ -1,201 +1,232 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 /* line 2, ../sass/app.scss */
 .menu {
-  	/* background-color: #CDCDB4;
-      width: 380px;
-      height: 100vh; */
+  background-color: #CDCDB4;
+  width: 380px;
+  position: absolute;
+  margin: 64px 119px;
+  z-index: 50;
+  height: 100vh;
+  left: -380px;
+  display: none;
+}
+/* line 12, ../sass/app.scss */
+.menu ul {
+  list-style-type: none;
 }
 
-/* line 18, ../sass/app.scss */
-.row {
-  width: 100%;
-}
-/* line 21, ../sass/app.scss */
+/* line 19, ../sass/app.scss */
 .row .navbar {
   background-color: #ffffff !important;
   width: 90%;
+  min-height: 90px;
 }
 /* line 25, ../sass/app.scss */
-.row .navbar a {
+.row .navbar a i {
   padding-left: 40px;
 }
-/* line 37, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
+.row .navbar .img {
+  margin-left: 48px;
+}
+/* line 41, ../sass/app.scss */
 .row .navbar .collapse1 .collapse2 .tel {
   text-align: center;
-  width: 190px;
+  width: 195px;
   background-color: #ffd200;
   display: inline-block;
   color: #212121;
   border-radius: 7px;
+  padding: 3px;
+  height: 30px;
+  margin-bottom: 7px;
 }
-/* line 46, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 .row .navbar .collapse1 .collapse2 .fa {
-  color: #757273;
-  padding-left: 50px;
+  color: #231f20;
+  font-size: 23px;
+  padding-left: 20px;
 }
 
-/* line 55, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 section.logo {
-  width: 100%;
-  height: 540px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 63, ../sass/app.scss */
+/* line 71, ../sass/app.scss */
 section.logo .text {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
+  min-height: 540px;
+  padding-top: 45px;
 }
-/* line 70, ../sass/app.scss */
+/* line 79, ../sass/app.scss */
 section.logo .text h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
-  padding-top: 50px;
 }
-/* line 76, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 section.logo .text h4 {
   font-family: PFAgoraSansPro;
   font-size: 24px;
-  margin-top: 10px;
+  padding-bottom: 60px;
 }
-/* line 84, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
 section.logo .text a li {
   font-family: PFAgoraSansPro;
   font-size: 26px;
   color: #212121;
   width: 385px;
-  height: 55px;
+  height: 65px;
   border-radius: 7px;
   border: 1px solid #070606;
-  padding: 8px;
+  padding: 12px;
   list-style-type: none;
-  margin-top: 60px;
 }
 
-/* line 101, ../sass/app.scss */
-section.cardmain .row {
-  padding: 50px 0;
-  text-align: center;
+/* line 108, ../sass/app.scss */
+section.cardmain .feat {
+  width: 100%;
+  padding-top: 57px;
 }
-/* line 105, ../sass/app.scss */
-section.cardmain .row hr {
+/* line 112, ../sass/app.scss */
+section.cardmain .feat hr {
   position: absolute;
-  margin-top: 73px;
-  width: 80%;
+  margin-top: 65px;
+  width: 68%;
   border: 2px dashed #fcd40a;
-  margin: 0 auto;
+  margin-left: 180px;
 }
-/* line 114, ../sass/app.scss */
-section.cardmain .row .card {
+/* line 119, ../sass/app.scss */
+section.cardmain .feat .incones {
   border: none;
   background-color: transparent;
+  margin-bottom: 85px;
 }
-/* line 118, ../sass/app.scss */
-section.cardmain .row .card a {
-  text-align: center;
-}
-/* line 121, ../sass/app.scss */
-section.cardmain .row .card a .card1 {
+/* line 124, ../sass/app.scss */
+section.cardmain .feat .incones .border {
   width: 50%;
   height: 130px;
   border-radius: 50%;
-  border: 5px solid #fcd40a;
-  padding: 10%;
+  border: 3px solid #fcd40a !important;
+  background-color: #fff;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
 }
-/* line 130, ../sass/app.scss */
-section.cardmain .row .card a h4 {
+/* line 135, ../sass/app.scss */
+section.cardmain .feat .incones .border .card1 {
+  opacity: 0;
+}
+/* line 142, ../sass/app.scss */
+section.cardmain .feat .incones a h4 {
+  text-align: center;
   font-family: PFAgoraSansPro;
   font-size: 24px;
   color: #1f1f1f;
-  margin-top: 30px;
-}
-/* line 140, ../sass/app.scss */
-section.cardmain .row .text {
-  font-sazi: 50px;
+  margin-top: 20px;
 }
 
-/* line 157, ../sass/app.scss */
+/* line 158, ../sass/app.scss */
 section.advantage .row .advan {
   text-align: center;
   background-color: #f3f0e7;
 }
-/* line 163, ../sass/app.scss */
+/* line 164, ../sass/app.scss */
 section.advantage .row .advan h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
   color: #000000;
-  margin: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* line 170, ../sass/app.scss */
+/* line 171, ../sass/app.scss */
 section.advantage .row .advan .img1 {
   border-radius: 50%;
   width: 70%;
   height: 220px;
 }
-/* line 175, ../sass/app.scss */
+/* line 176, ../sass/app.scss */
 section.advantage .row .advan h4 {
   font-family: PFAgoraSansPro;
   font-size: 24px;
   color: #000000;
-  padding: 15px;
+  padding-top: 20px;
 }
-/* line 181, ../sass/app.scss */
+/* line 182, ../sass/app.scss */
 section.advantage .row .advan p {
   font-family: PFAgoraSansPro;
   font-size: 16px;
   color: #000000;
+  padding-top: 8px;
 }
-/* line 187, ../sass/app.scss */
+/* line 189, ../sass/app.scss */
 section.advantage .row .advan .button {
-  padding: 60px 0;
+  padding: 90px 0;
 }
-/* line 190, ../sass/app.scss */
+/* line 192, ../sass/app.scss */
 section.advantage .row .advan .button a {
   font-family: PFAgoraSansPro;
   font-size: 26px;
   color: #ffffff;
   border-radius: 7px;
   background-color: #e11a27;
-  padding: 8px;
+  padding: 18px 37px;
 }
 
 /* line 205, ../sass/app.scss */
+section.ready {
+  padding-bottom: 97px;
+}
+/* line 208, ../sass/app.scss */
 section.ready h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
-  padding: 50px;
+  padding: 60px;
   text-align: center;
 }
-/* line 211, ../sass/app.scss */
-section.ready .row {
+/* line 214, ../sass/app.scss */
+section.ready .valor {
   text-align: center;
-  padding-bottom: 35px;
+  padding-top: 5px;
 }
-/* line 216, ../sass/app.scss */
-section.ready .row .text {
+/* line 219, ../sass/app.scss */
+section.ready .valor .text {
   border-radius: 7px;
   background-color: #ffd200;
-  width: 290px;
+  width: 315px;
+  position: relative;
 }
-/* line 221, ../sass/app.scss */
-section.ready .row .text .text1 {
+/* line 225, ../sass/app.scss */
+section.ready .valor .text .text1 {
+  width: 100%;
   position: absolute;
   font-family: PFAgoraSansPro;
   font-size: 21px;
   color: #e11a27;
+  top: -20px;
 }
-/* line 227, ../sass/app.scss */
-section.ready .row .text h5 {
+/* line 233, ../sass/app.scss */
+section.ready .valor .text .text1 span {
+  background-color: #ffd200;
+  padding: 5px 20px;
+  border-radius: 16px 16px 0 0;
+}
+/* line 239, ../sass/app.scss */
+section.ready .valor .text h5 {
   font-family: PFAgoraSansPro;
   font-size: 36px;
   color: #000000;
   height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-/* line 234, ../sass/app.scss */
-section.ready .row .text .interna {
+/* line 249, ../sass/app.scss */
+section.ready .valor .text .interna {
   background-color: #ffffff;
   height: 287px;
   border: 7px solid  #ffd200;
@@ -204,189 +235,225 @@ section.ready .row .text .interna {
   font-size: 18px;
   font-family: PFAgoraSansPro;
   padding: 25px;
+  position: relative;
 }
-/* line 245, ../sass/app.scss */
-section.ready .row .text .interna .preco {
+/* line 261, ../sass/app.scss */
+section.ready .valor .text .interna .preco {
   font-family: PFAgoraSansPro;
   font-size: 60px;
   color: #000000;
   text-align: center;
-  padding-top: 80px;
+  position: absolute;
+  bottom: -5px;
+  width: 85%;
 }
-/* line 255, ../sass/app.scss */
-section.ready .row .text p {
+/* line 273, ../sass/app.scss */
+section.ready .valor .text p {
   font-family: PFAgoraSansPro;
   font-size: 22px;
   color: #000000;
 }
 
-/* line 264, ../sass/app.scss */
+/* line 282, ../sass/app.scss */
 section.testimonials {
   background-color: #f7f0e6;
 }
-/* line 274, ../sass/app.scss */
+/* line 290, ../sass/app.scss */
+section.testimonials .testi .row .testi1 {
+  padding-bottom: 49px;
+}
+/* line 294, ../sass/app.scss */
 section.testimonials .testi .row .testi1 h2 {
   font-family: PFAgoraSansPro;
   font-size: 45px;
-  margin-top: 15px;
+  padding-top: 32px;
+  padding-bottom: 37px;
   color: #000000;
 }
-/* line 283, ../sass/app.scss */
+/* line 304, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .john .john1 {
   border-radius: 50%;
   width: 80%;
   height: 180px;
 }
-/* line 290, ../sass/app.scss */
+/* line 311, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .john2 {
   text-align: left;
   padding-top: 60px;
 }
-/* line 294, ../sass/app.scss */
+/* line 315, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .john2 h3 {
   font-family: PFAgoraSansPro;
   font-size: 30px;
   color: #000000;
 }
-/* line 300, ../sass/app.scss */
+/* line 321, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .john2 p {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
 }
-/* line 307, ../sass/app.scss */
+/* line 328, ../sass/app.scss */
 section.testimonials .testi .row .testi1 span {
-  padding-top: 40px;
+  padding-top: 22px;
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
 }
-/* line 314, ../sass/app.scss */
+/* line 335, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .next {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
   text-align: right;
-  padding-top: 24px;
+  padding-top: 30px;
 }
-/* line 321, ../sass/app.scss */
+/* line 342, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .next a {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
 }
-/* line 331, ../sass/app.scss */
+/* line 350, ../sass/app.scss */
+section.testimonials .testi .row .testi1 .make {
+  padding-top: 9%;
+}
+/* line 353, ../sass/app.scss */
 section.testimonials .testi .row .testi1 .make li {
   font-family: PFAgoraSansPro;
   text-align: center;
   font-size: 25px;
   color: #212121;
-  width: 350px;
-  height: 55px;
+  width: 380px;
   border-radius: 7px;
   border: 1px solid #070606;
-  padding: 8px;
+  padding: 15px;
   list-style-type: none;
-  margin: 35px 0 40px 0;
+  margin: 0 auto;
 }
-/* line 347, ../sass/app.scss */
+/* line 367, ../sass/app.scss */
 section.testimonials .testi .row .img {
-  height: 718px;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 357, ../sass/app.scss */
-section.terms .row {
+/* line 377, ../sass/app.scss */
+section.terms .pagamento {
   text-align: center;
   padding-top: 40px;
 }
-/* line 362, ../sass/app.scss */
-section.terms .row .terms1 {
+/* line 382, ../sass/app.scss */
+section.terms .pagamento .terms1 {
   border-radius: 7px;
   background-color: #ffd200;
-  width: 290px;
+  border-radius: 10px 10px 0 0;
 }
-/* line 367, ../sass/app.scss */
-section.terms .row .terms1 h5 {
+/* line 387, ../sass/app.scss */
+section.terms .pagamento .terms1 h5 {
   font-family: PFAgoraSansPro;
   font-size: 36px;
   color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-/* line 373, ../sass/app.scss */
-section.terms .row .terms1 ul {
+/* line 395, ../sass/app.scss */
+section.terms .pagamento .interna {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
-  padding: 30px;
-  text-align: left;
-  background-color: #f7f0e6;
-  padding: 55px;
-}
-/* line 391, ../sass/app.scss */
-section.terms .row .terms1 .interna {
   background-color: #f7f0e6;
   text-align: left;
+  min-height: 245px;
+  border-radius: 0 0 10px 10px;
 }
-/* line 395, ../sass/app.scss */
-section.terms .row .terms1 .interna p {
+/* line 404, ../sass/app.scss */
+section.terms .pagamento .interna p {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #000000;
   padding: 30px;
   margin: 0;
 }
-/* line 403, ../sass/app.scss */
-section.terms .row .terms1 .interna span {
+/* line 411, ../sass/app.scss */
+section.terms .pagamento .interna .pay {
+  padding: 20px;
+}
+/* line 415, ../sass/app.scss */
+section.terms .pagamento .interna span {
   font-family: PFAgoraSansPro;
   font-size: 18px;
   color: #e11a27;
-  padding: 30px;
 }
-/* line 412, ../sass/app.scss */
-section.terms .row .make {
-  margin: 40px 0 70px 0;
+/* line 422, ../sass/app.scss */
+section.terms .make {
+  text-align: center;
+  padding-top: 73px;
+  padding-bottom: 135px;
 }
-/* line 416, ../sass/app.scss */
-section.terms .row .make a {
+/* line 426, ../sass/app.scss */
+section.terms .make a {
   font-family: PFAgoraSansPro;
   font-size: 26px;
   color: #ffffff;
   border-radius: 7px;
   background-color: #e11a27;
-  padding: 8px;
+  padding: 20px 37px;
+  margin: 0 auto;
 }
 
-/* line 431, ../sass/app.scss */
-section.rodape .row {
-  height: 300px;
-  background-color: #ffd200;
-}
-/* line 435, ../sass/app.scss */
-section.rodape .row hr {
-  width: 70%;
-  border: 1px solid #000;
-}
 /* line 439, ../sass/app.scss */
-section.rodape .row ul {
-  list-style-type: none;
-  margin-right: 39px;
+section.footer .rodape {
+  background-color: #ffd200;
+  padding-top: 33px;
 }
-/* line 442, ../sass/app.scss */
-section.rodape .row ul a {
-  color: #000000;
+/* line 443, ../sass/app.scss */
+section.footer .rodape .text {
+  padding-bottom: 90px;
 }
 /* line 446, ../sass/app.scss */
-section.rodape .row .logo {
-  text-align: -webkit-center;
+section.footer .rodape hr {
+  width: 152px;
+  border-bottom: 1px solid #000;
 }
-/* line 449, ../sass/app.scss */
-section.rodape .row .logoimg {
-  width: 80px;
+/* line 451, ../sass/app.scss */
+section.footer .rodape ul {
+  list-style-type: none;
+  margin-right: 39px;
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+/* line 458, ../sass/app.scss */
+section.footer .rodape ul a {
+  color: #000000;
+}
+/* line 464, ../sass/app.scss */
+section.footer .rodape .logo hr.linha {
+  text-align: left;
+}
+/* line 469, ../sass/app.scss */
+section.footer .rodape .logo .logos {
+  padding-bottom: 45px;
+  text-align: center;
+  font-size: 30px;
+  margin-right: 10px;
+}
+/* line 475, ../sass/app.scss */
+section.footer .rodape .logo .logos .fa {
+  margin-left: 10px;
+}
+/* line 482, ../sass/app.scss */
+section.footer .rodape .logoimg {
   height: 96px;
   border-radius: 8px;
-  border: 1px solid #070606;
-}
-/* line 456, ../sass/app.scss */
-section.rodape .rights {
   text-align: center;
+}
+/* line 487, ../sass/app.scss */
+section.footer .rodape .logoimg .rodapeimg {
+  margin: 0 auto;
+}
+/* line 493, ../sass/app.scss */
+section.footer .rights {
+  text-align: center;
+  padding-bottom: 55px;
 }
